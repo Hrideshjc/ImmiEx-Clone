@@ -11,7 +11,7 @@ const ParallaxStatsSection = () => {
 
   return (
     <section 
-      className="relative min-h-[440px] bg-local lg:bg-fixed bg-center bg-cover flex items-center py-20 md:py-24"
+      className="relative min-h-[440px] bg-fixed bg-center bg-cover flex items-center py-20 md:py-24"
       style={{ backgroundImage: `url(${statisticBg})` }}
     >
 
