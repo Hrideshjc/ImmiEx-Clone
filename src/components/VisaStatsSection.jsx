@@ -18,7 +18,7 @@ const OverseasEducation = () => {
 
   return (
     <section 
-      className="relative w-full min-h-[600px] bg-fixed bg-center bg-cover flex items-center overflow-hidden py-16 sm:py-20"
+      className="relative w-full min-h-[600px] bg-local lg:bg-fixed bg-center bg-cover flex items-center overflow-hidden py-16 sm:py-20"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
 

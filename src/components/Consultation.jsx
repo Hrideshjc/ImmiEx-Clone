@@ -7,7 +7,7 @@ const Consultation = () => {
   return (
     <section 
       
-      className="relative w-full py-16 md:py-24 bg-fixed bg-center bg-cover bg-no-repeat overflow-hidden"
+      className="relative w-full py-16 md:py-24 bg-local md:bg-fixed bg-center bg-cover bg-no-repeat overflow-hidden"
       style={{ backgroundImage: `url(${consultBg})` }}
     >
 
