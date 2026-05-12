@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 
 const VisaCategoriesGrid = () => {
-  // State to manage which country is currently selected
+  
   const [activeTab, setActiveTab] = useState("All Countries");
 
-  // Categories as seen in your reference images
+  
   const categories = [
     "All Countries", "Canada", "Australia", "USA", 
     "United Kingdom", "New Zealand", "China", "South Korea"
   ];
 
-  // This object holds the specific university names and logos for each tab.
+  
   const universityData = {
     "All Countries": [
       { name: "University of Toronto", logo: "https://logo.clearbit.com/utoronto.ca" },

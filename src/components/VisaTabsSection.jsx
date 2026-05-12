@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// Asset imports
 import tabImg1 from '../assets/image-1.png';
 import tabImg2 from '../assets/image-03.png';
 import tabImg3 from '../assets/image-2.png';
