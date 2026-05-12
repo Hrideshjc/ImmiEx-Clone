@@ -5,15 +5,14 @@ import ConsultantSection from './components/ConsultantSection';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ServicesGrid from './components/ServicesGrid';
-import Consultantsection from './components/ConsultantSection';
-import ParallaxStatssection from './components/ParallaxStatsSection';
-import VisaTabssection from './components/VisaTabsSection';
-import Countrygridsection from './components/CountryGridSection';
-import VisaCategoriesgrid from './components/VisaCategoriesGrid';
-import Visastatssection from './components/VisaStatsSection';
-import Testimonial from './components/Testimonials';
-import Latestnews from './components/LatestNews';
-import Consultations from './components/Consultation';
+import ParallaxStatsSection from './components/ParallaxStatsSection';
+import VisaTabsSection from './components/VisaTabsSection';
+import CountryGridSection from './components/CountryGridSection';
+import VisaCategoriesGrid from './components/VisaCategoriesGrid';
+import VisaStatsSection from './components/VisaStatsSection';
+import Testimonials from './components/Testimonials';
+import LatestNews from './components/LatestNews';
+import Consultation from './components/Consultation';
 import Footer from './components/Footer';
 
 const DEFAULT_PRIMARY = '#24a0ad';
@@ -66,15 +65,15 @@ function App() {
       <Hero />
       <ServicesGrid />
       <AboutSection />
-      <Consultantsection  />
-      <ParallaxStatssection />
-      <VisaTabssection />
-      <Countrygridsection />
-      <Visastatssection />
-      <VisaCategoriesgrid />
-      <Testimonial />
-      <Latestnews />
-      <Consultations />
+      <ConsultantSection />
+      <ParallaxStatsSection />
+      <VisaTabsSection />
+      <CountryGridSection />
+      <VisaStatsSection />
+      <VisaCategoriesGrid />
+      <Testimonials />
+      <LatestNews />
+      <Consultation />
       <Footer />
 
       {showScrollTop && (

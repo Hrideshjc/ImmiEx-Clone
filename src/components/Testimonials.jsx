@@ -2,15 +2,15 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Autoplay } from 'swiper/modules';
 
-// Import Swiper styles
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 
-// Replace these with your actual local asset paths
+
 import heroBg from '../assets/tra-city.png'; 
 
 const Testimonials = () => {
-  // Add as many testimonials here as you like
+  
   const testimonialData = [
     {
       id: 1,
