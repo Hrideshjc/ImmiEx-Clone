@@ -54,12 +54,12 @@ const Testimonials = () => {
       className="relative w-full min-h-[auto] md:min-h-[100vh] py-16 md:py-24 overflow-hidden bg-center bg-cover bg-no-repeat"
       style={{ backgroundImage: `url(${heroBg})` }}
     >
-      {/* Light Overlay to match image_e2c573.png */}
+      
       <div className="absolute inset-0 bg-white/20 z-0" />
 
       <div className="relative z-10 max-w-[1240px] mx-auto px-4 sm:px-6 md:px-8 w-full">
         
-        {/* --- Header Section --- */}
+        
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-[32px] sm:text-[36px] md:text-[52px] text-[#222] mb-4 sm:mb-6">
             What Our Clients Say
@@ -92,7 +92,7 @@ const Testimonials = () => {
             {testimonialData.map((item) => (
               <SwiperSlide key={item.id}>
                 <div className="bg-white border border-gray-100 p-6 md:p-10 rounded-lg shadow-sm h-full flex flex-col transition-all duration-300 hover:shadow-md">
-                  {/* User Info Header */}
+                  
                   <div className="flex items-center gap-4 mb-6">
                     <img 
                       src={item.image} 
@@ -105,7 +105,7 @@ const Testimonials = () => {
                     </div>
                   </div>
 
-                  {/* Feedback Text */}
+                  
                   <p className="text-[#666] text-[16px] leading-relaxed italic">
                     "{item.text}"
                   </p>
@@ -114,7 +114,7 @@ const Testimonials = () => {
             ))}
           </Swiper>
 
-          {/* --- Custom Navigation Arrows (Matching image_e2c573.png) --- */}
+          
           <div className="flex justify-center items-center gap-6 mt-10 md:mt-12">
             <button className="swiper-button-prev-custom text-[#222] text-2xl md:text-3xl hover:text-[var(--primary-color)] transition-colors cursor-pointer">
               ←

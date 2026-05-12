@@ -24,7 +24,7 @@ const OverseasEducation = () => {
 
       <div className="relative z-10 max-w-[1200px] mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full">
         
-        {/* Left Side: Students Image */}
+        
         <div className="hidden lg:block self-end">
           <img 
             src={studentsImg} 
@@ -33,7 +33,7 @@ const OverseasEducation = () => {
           />
         </div>
 
-        {/* Right Side: Content */}
+        
         <div className="text-white py-16 lg:py-0">
           <span className="text-[14px] font-bold uppercase tracking-[0.2em] text-gray-300 block mb-4">
             Overseas Education
@@ -57,9 +57,7 @@ const OverseasEducation = () => {
           <div className="flex flex-wrap gap-8 items-end">
             {flags.map((flag) => (
               <div key={flag.name} className="flex flex-col items-center gap-3">
-                {/* Note: Using a placeholder for flag visuals. 
-                   Replace with your actual flag SVG/PNG assets 
-                */}
+                
                 <div className="w-12 h-8 bg-white/10 rounded-sm overflow-hidden flex items-center justify-center border border-white/20">
                    <img src={flag.logo} alt={flag.name} className="w-full h-full object-cover" />
                 </div>

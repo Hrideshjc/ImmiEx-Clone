@@ -103,8 +103,8 @@ const VisaCategoriesGrid = () => {
     <section className="py-24 bg-white">
       <div className="max-w-[1200px] mx-auto px-6">
         
-        {/* --- 1. TOP CONTENT REPLICATION --- */}
-        {/* Matches image_eeae1b.png text and alignment */}
+       
+        
         <div className="text-center mb-10">
           <h2 className="text-[38px] md:text-[48px] text-[#222] leading-tight mb-6">
             Partner Institutes & Universities
@@ -115,8 +115,7 @@ const VisaCategoriesGrid = () => {
           </p>
         </div>
 
-        {/* --- 2. BREADCRUMB TAB SELECTOR --- */}
-        {/* Matches image_eea676.png style with slashes */}
+        
         <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-2 mb-16 text-[18px] font-medium">
           {categories.map((tab, index) => (
             <React.Fragment key={tab}>
@@ -131,7 +130,7 @@ const VisaCategoriesGrid = () => {
                 {tab}
               </button>
               
-              {/* Slash separator logic */}
+              
               {index !== categories.length - 1 && (
                 <span className="text-[#ccc] select-none text-[20px]">/</span>
               )}
@@ -139,8 +138,7 @@ const VisaCategoriesGrid = () => {
           ))}
         </div>
 
-        {/* --- 3. 5x5 RESPONSIVE GRID --- */}
-        {/* Replicates image_eea279.png container style */}
+        
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
           {currentItems.map((item, index) => (
             <div 
@@ -162,7 +160,7 @@ const VisaCategoriesGrid = () => {
                 )}
               </div>
               
-              {/* University Name Text */}
+              
               <p className="text-[#666] text-[14px] font-medium text-center leading-snug group-hover:text-[#222] transition-colors">
                 {item.name}
               </p>

@@ -1,19 +1,18 @@
 import React from 'react';
 
-// Replace with your local asset path
+
 import consultBg from '../assets/request-form.jpg'; 
 
 const Consultation = () => {
   return (
     <section 
-      /* bg-fixed creates the parallax state */
+      
       className="relative w-full py-16 md:py-24 bg-local md:bg-fixed bg-center bg-cover bg-no-repeat overflow-hidden"
       style={{ backgroundImage: `url(${consultBg})` }}
     >
 
       <div className="relative z-10 max-w-[1240px] mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         
-        {/* --- Left Content --- */}
         <div className="text-white">
           <span className="text-[var(--primary-color)] font-bold text-sm tracking-widest uppercase">
             Free 24/7 Support
@@ -31,7 +30,7 @@ const Consultation = () => {
           </p>
         </div>
 
-        {/* --- Right Form --- */}
+        
         <div className="flex justify-center lg:justify-end">
           <div className="bg-white p-8 md:p-10 rounded-sm shadow-2xl w-full max-w-[500px] sm:max-w-[520px]">
             <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">

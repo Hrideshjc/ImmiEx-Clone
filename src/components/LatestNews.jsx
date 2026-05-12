@@ -38,7 +38,7 @@ const LatestNews = () => {
     <section className="py-24 bg-white">
       <div className="max-w-[1240px] mx-auto px-6">
         
-        {/* --- Header Section --- */}
+        
         <div className="text-center mb-16">
           <h2 className="text-[38px] md:text-[50px] text-[#222] mb-6">
             Our Stories & Latest News
@@ -49,11 +49,11 @@ const LatestNews = () => {
           </p>
         </div>
 
-        {/* --- News Grid --- */}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {newsData.map((post) => (
             <div key={post.id} className="group cursor-pointer">
-              {/* Image Container */}
+              
               <div className="overflow-hidden rounded-sm mb-6">
                 <img 
                   src={post.image} 
@@ -62,7 +62,7 @@ const LatestNews = () => {
                 />
               </div>
 
-              {/* Meta Data: Category & Read Time */}
+              
               <div className="flex items-center gap-2 mb-3">
                 <span className="text-[var(--primary-color)] font-bold text-[13px] uppercase tracking-wider">
                   {post.category}
@@ -73,17 +73,17 @@ const LatestNews = () => {
                 </span>
               </div>
 
-              {/* Title */}
+              
               <h3 className="text-[22px] font-bold text-[var(--primary-color)] leading-tight mb-4 group-hover:text-[var(--primary-color)] transition-colors">
                 {post.title}
               </h3>
 
-              {/* Description */}
+              
               <p className="text-[#666] text-[15px] leading-relaxed mb-6">
                 {post.description}
               </p>
 
-              {/* Author & Date Footer */}
+              
               <div className="text-[14px] text-gray-400">
                 <span className="text-gray-400">By </span>
                 <span className="font-bold text-[#444]">{post.author}</span>

@@ -4,7 +4,7 @@ import worldMap from '../assets/world-map.png';
 const ConsultantSection = () => {
   return (
     <section className="py-16 bg-white">
-      {/* Centering Container - Perfectly aligned with Navbar and About Section */}
+      
       <div className="max-w-[1200px] mx-auto px-6">
         
         {/* Header Section */}
@@ -21,7 +21,7 @@ const ConsultantSection = () => {
         {/* Grid Content */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
-          {/* Left Column: Country List (4 cols) */}
+          
           <div className="lg:col-span-3">
             <h3 className="text-[20px] font-bold text-[#222] mb-6">Country:</h3>
             <ul className="space-y-3">
@@ -37,7 +37,7 @@ const ConsultantSection = () => {
             </button>
           </div>
 
-          {/* Middle Column: Practice Area List (4 cols) */}
+          
           <div className="lg:col-span-4">
             <h3 className="text-[20px] font-bold text-[#222] mb-6">Practice Area:</h3>
             <ul className="space-y-3">
@@ -53,7 +53,7 @@ const ConsultantSection = () => {
             </button>
           </div>
 
-          {/* Right Column: World Map Image (5 cols) */}
+          
           <div className="lg:col-span-5 flex justify-end">
             <img 
               src={worldMap} 

@@ -5,13 +5,13 @@ import aboutImage from '../assets/image-03.png';
 const AboutSection = () => {
   return (
     <section className="py-12 sm:py-16 bg-white overflow-hidden">
-      {/* Centering Container - Perfectly aligned with Navbar */}
+      
       <div className="max-w-[1200px] mx-auto px-6 flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
         
-        {/* Left Side: Exact Image Composition */}
+        
         <div className="relative w-full lg:w-[45%] flex justify-center">
           
-          {/* Decorative Pattern (Bottom Left) */}
+          
           <div className="absolute -left-8 -bottom-8 w-32 h-32 opacity-10 pointer-events-none z-0">
              <div className="grid grid-cols-5 gap-4">
                 {[...Array(25)].map((_, i) => (
@@ -22,7 +22,7 @@ const AboutSection = () => {
 
           
 
-          {/* Image Container with Exact Ratio */}
+          
           <div className="relative z-10 w-full max-w-[440px]">
             <img 
               src={aboutImage} 
@@ -30,7 +30,7 @@ const AboutSection = () => {
               className="w-full h-auto sm:h-[420px] md:h-[520px] object-cover rounded-md shadow-sm" 
             />
             
-            {/* Play Button - Centered on the Right Edge */}
+          
             <div className="absolute top-1/2 right-0 translate-x-1/2 -translate-y-1/2">
               <div className="bg-white p-10 rounded-sm shadow-[0_20px_50px_rgba(0,0,0,0.1)] flex items-center justify-center cursor-pointer hover:shadow-[0_20px_60px_rgba(0,0,0,0.15)] transition-all duration-300">
                 <div className="w-16 h-16 rounded-full border border-[var(--primary-color)] flex items-center justify-center text-[var(--primary-color)]">
@@ -41,7 +41,7 @@ const AboutSection = () => {
           </div>
         </div>
 
-        {/* Right Side: Content */}
+        
         <div className="w-full lg:w-[55%] pt-8 lg:pt-0">
           <span className="text-[13px] font-bold uppercase tracking-[0.2em] text-gray-400 block mb-3">
             About Agency

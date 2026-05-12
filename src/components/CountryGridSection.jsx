@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Importing images from assets based on country names
+
 import canada from '../assets/canada.jpg';
 import australia from '../assets/australia.jpg';
 import unitedKingdom from '../assets/uk.jpg';
@@ -23,7 +23,7 @@ const CountryGridSection = () => {
 
   return (
     <section className="py-20 bg-white">
-      {/* Centering Container - Aligned with Navbar Width */}
+      
       <div className="max-w-[1200px] mx-auto px-6">
         
         {/* Section Header */}
@@ -36,7 +36,7 @@ const CountryGridSection = () => {
           </p>
         </div>
 
-        {/* 4xN Grid - Mobile Responsive */}
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {countryData.map((country, index) => (
             <div 
@@ -50,7 +50,7 @@ const CountryGridSection = () => {
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
 
-              {/* Dark Gradient Overlay (Fixed bottom-up) */}
+             
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-300" />
 
               {/* Content Container */}

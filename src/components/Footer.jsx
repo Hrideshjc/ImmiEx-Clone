@@ -4,12 +4,12 @@ import logo from '../assets/logo-black.png';
 const Footer = () => {
   return (
     <footer className="bg-white pt-20 pb-10">
-      {/* Main Footer Content - Max width matches max-w-7xl/1240px commonly used in Navbars */}
+      
       <div className="max-w-[1240px] mx-auto px-6">
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           
-          {/* --- Column 1: Contact Details --- */}
+          
           <div>
             <h4 className="text-[20px] font-bold text-[#222] mb-8">Contact Details</h4>
             <div className="text-[#777] text-[15px] space-y-4 leading-relaxed">
@@ -24,7 +24,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* --- Column 2: Useful Links --- */}
+          
           <div>
             <h4 className="text-[20px] font-bold text-[#222] mb-8">Useful Links</h4>
             <ul className="text-[#777] text-[15px] space-y-3">
@@ -38,7 +38,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* --- Column 3: Visas --- */}
+         
           <div>
             <h4 className="text-[20px] font-bold text-[#222] mb-8">Visas</h4>
             <ul className="text-[#777] text-[15px] space-y-3">
@@ -52,7 +52,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* --- Column 4: Newsletter --- */}
+          
           <div>
             <h4 className="text-[20px] font-bold text-[#222] mb-8">Stay Always In Touch</h4>
             <div className="flex flex-col gap-4">
@@ -68,10 +68,10 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* --- Bottom Bar --- */}
+        
         <div className="border-t border-gray-100 pt-10 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-3">
-            {/* Replace with your local logo path */}
+            
            <img src={logo} alt="Logo" className="w-36 md:w-48" />
           </div>
 

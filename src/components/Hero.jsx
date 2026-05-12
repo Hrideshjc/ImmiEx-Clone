@@ -60,7 +60,7 @@ const Hero = () => {
             index === current ? 'opacity-100' : 'opacity-0'
           }`}
         >
-          {/* Overlay for readability */}
+          
           <div className="absolute inset-0 bg-black/60 z-10" />
           <img
             src={slide.image}
@@ -70,7 +70,7 @@ const Hero = () => {
         </div>
       ))}
 
-      {/* Content */}
+      
       <div className="relative z-20 h-full flex flex-col justify-center items-center text-center text-white px-4 sm:px-6 lg:px-8">
         {isAnimating && (
           <div className="max-w-4xl w-full space-y-4 sm:space-y-6">
@@ -95,7 +95,7 @@ const Hero = () => {
           </div>
         )}
 
-        {/* Navigation Arrows */}
+        
         <div className="absolute bottom-6 sm:bottom-10 flex gap-4 z-30">
           <button 
             onClick={handlePrev}

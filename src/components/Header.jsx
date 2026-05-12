@@ -20,7 +20,7 @@ const Header = ({ selectedColor, setSelectedColor }) => {
       <header className="fixed top-0 left-0 w-full z-40 bg-white/95 backdrop-blur-sm shadow-sm font-sans">
         {/* --- Top Bar --- */}
         <div className="border-b border-gray-100 py-2.5 hidden md:block">
-          {/* This container centers your content */}
+          
           <div className="max-w-7xl mx-auto px-6 flex justify-between items-center text-[13px] text-gray-500">
             <div className="flex items-center gap-2">
               <MapPin size={14} className="text-gray-400" />
@@ -41,7 +41,7 @@ const Header = ({ selectedColor, setSelectedColor }) => {
 
         {/* --- Main Navbar --- */}
         <nav className="py-5">
-          {/* This container centers your content */}
+          
           <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
             {/* Logo Section */}
             <div className="flex items-center gap-3">
@@ -49,7 +49,7 @@ const Header = ({ selectedColor, setSelectedColor }) => {
               
             </div>
 
-            {/* Navigation Menu */}
+            
             <div className="flex items-center gap-10">
               <ul className="hidden lg:flex items-center gap-10 font-bold text-[#333] text-[14px] tracking-wide">
                 <li className="flex items-center gap-1 cursor-pointer hover:text-[var(--primary-color)] transition-colors">
@@ -66,12 +66,12 @@ const Header = ({ selectedColor, setSelectedColor }) => {
                 </li>
               </ul>
 
-              {/* CTA Button */}
+              
               <button className="hidden md:block bg-[var(--primary-color)] hover:bg-[var(--primary-hover-color)] text-white font-bold py-3.5 px-9 rounded text-[14px] transition-all uppercase tracking-wider shadow-sm">
                 Get Started
               </button>
 
-              {/* Mobile Menu Button */}
+              
               <button 
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 className="lg:hidden p-2 text-[#333] hover:text-[var(--primary-color)] transition-colors"
@@ -82,7 +82,7 @@ const Header = ({ selectedColor, setSelectedColor }) => {
           </div>
         </nav>
 
-        {/* Mobile Menu */}
+        
         {mobileMenuOpen && (
           <div className="lg:hidden bg-white border-t border-gray-100 shadow-lg">
             <div className="max-w-7xl mx-auto px-6 py-4">
@@ -108,7 +108,7 @@ const Header = ({ selectedColor, setSelectedColor }) => {
         )}
       </header>
 
-      {/* --- Floating Switcher (Stays on the right) --- */}
+      {/* --- Floating Settings Switcher --- */}
       <div className={`fixed top-48 right-0 z-50 flex transition-transform duration-300 ${isOpen ? 'translate-x-0' : 'translate-x-[260px]'}`}>
         <button 
           onClick={() => setIsOpen(!isOpen)}

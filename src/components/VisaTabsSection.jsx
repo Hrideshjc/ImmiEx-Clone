@@ -50,7 +50,7 @@ const VisaTabsSection = () => {
     <section className="pt-16 pb-0 bg-white overflow-hidden">
       <div className="max-w-[1200px] mx-auto px-6">
         
-        {/* --- Tab Selector with Underline --- */}
+        
         <div className="flex flex-wrap justify-center gap-8 md:gap-12 mb-16 border-b border-gray-100">
           {tabData.map((tab, index) => (
             <button
@@ -68,10 +68,10 @@ const VisaTabsSection = () => {
           ))}
         </div>
 
-        {/* --- Content Area --- */}
+        
         <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24 mb-20">
           
-          {/* Left Side: Image */}
+          
           <div className="relative w-full lg:w-[45%] flex justify-center order-2 lg:order-1">
             <div className="absolute -left-8 -bottom-8 w-32 h-32 opacity-10 pointer-events-none z-0">
                <div className="grid grid-cols-5 gap-4">
@@ -90,7 +90,7 @@ const VisaTabsSection = () => {
             </div>
           </div>
 
-          {/* Right Side: Text Content */}
+          
           <div className="w-full lg:w-[55%] pt-8 lg:pt-0 order-1 lg:order-2">
             <h2 className='text-[13px] font-bold uppercase tracking-[0.2em] text-gray-400 block mb-3'> 
               {tabData[activeTab].subheading}
@@ -120,7 +120,7 @@ const VisaTabsSection = () => {
           </div>
         </div>
 
-        {/* --- Bottom Dashed Divider --- */}
+        
 <div className="max-w-[1200px] mx-auto px-6 pb-12">
   <div className="w-full border-t-[4px] border-r-10 border-dashed border-gray-300" />
 </div>
